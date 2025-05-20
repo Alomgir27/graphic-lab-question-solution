@@ -207,7 +207,7 @@ void setupGL() {
     glClearColor(1.0, 1.0, 1.0, 1.0); // White background
     glMatrixMode(GL_PROJECTION);
     glLoadIdentity();
-    gluOrtho2D(-100.0, 100.0, -100.0, 100.0);
+    gluOrtho2D(-100.0, 100.0, -100.0, 100.0); 
 }
 
 int main(int argc, char** argv) {
